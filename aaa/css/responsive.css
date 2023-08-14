@@ -1,0 +1,508 @@
+/* ==== Iphone Ratina ==== */
+
+@media only screen and (min-width:320px) {
+    .header-bottom h1 {
+        font-size: 80px;
+    }
+    .header-bottom>h3 {
+        font-size: 35px;
+    }
+    .header-bottom p {
+        font-size: 25px;
+    }
+    .about-thum-area .about-img {
+        width: 100%;
+    }
+    .about-thum-area .about-img:after {
+        display: none;
+    }
+    .resume-btn a {
+        margin-left: 0;
+    }
+    .about-content-area {
+        margin-top: 65px;
+    }
+    .interest-item {
+        margin-bottom: 60px;
+    }
+    .interest-item-content {
+        margin: auto;
+    }
+    .cd-timeline-img {
+        left: 19px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .skills-content .col-md-6.col-sm-6.col-xs-12:nth-child(2) .skillst5.float-right {
+        float: left;
+        margin-top: 75px;
+    }
+    #interest-area .section-title h2,
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .footer-icons li a i {
+        font-size: 18px;
+        height: 40px;
+        width: 40px;
+    }
+    .footer-icons a {
+        margin: 0 5px !important;
+    }
+    .message-content {
+        width: 100%;
+    }
+    .hire-content,
+    .hire-btn {
+        width: 100%;
+        float: inherit;
+    }
+    .hire-content>p {
+        padding-left: 0;
+        width: 100%;
+        margin: 10px auto 15px;
+    }
+    .hire-content>h2 {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    .hire-content>h2::before {
+        font-size: 45px;
+        left: -30px;
+        top: 0;
+    }
+    .hire-btn a {
+        float: inherit;
+    }
+    .hire-btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .single-blog {
+        margin-bottom: 50px;
+    }
+    .educaton-content::before,
+    .experience-content::before,
+    .educaton-content .cd-timeline::after,
+    .experience-content .cd-timeline::after {
+        left: 20px;
+    }
+    .experience-content .cd-timeline-content,
+    .educaton-content .cd-timeline-content {
+        text-align: left;
+    }
+    .experience-content .cd-timeline-content p,
+    .educaton-content .cd-timeline-content p {
+        margin: 15px 0 10px;
+    }
+    .skill-bottom-content {
+        width: 100%;
+        margin: inherit;
+    }
+    .single-skill-bottom {
+        float: none;
+        width: 100% !important;
+        margin: inherit;
+    }
+    .sin-skill-middle {
+        width: 100% !important;
+    }
+    .blog-content-wrap {
+        height: auto;
+        padding: 15px;
+    }
+    .sidebar-wrap {
+        margin-top: 60px;
+    }
+    .single-related-post {
+        margin-bottom: 30px;
+    }
+    .portfolio-open-content {
+        margin-top: 50px;
+    }
+    .educaton-content,
+    .experience-content {
+        margin-left: 10px;
+    }
+    .educaton-content .cd-timeline-content h2,
+    .experience-content .cd-timeline-content h2 {
+        font-size: 24px;
+    }
+}
+
+
+/* ==== Extra Small Device, Mobile ======================= */
+
+@media only screen and (min-width:480px) {
+    .header-bottom h1 {
+        font-size: 60px;
+    }
+    .header-bottom>h3 {
+        font-size: 40px;
+    }
+    .header-bottom p {
+        font-size: 24px;
+    }
+    .about-thum-area .about-img {
+        width: 365px;
+    }
+    .about-thum-area .about-img:after {
+        display: block;
+    }
+    .resume-btn a {
+        margin-left: 90px;
+    }
+    .about-content-area {
+        margin-top: 85px;
+    }
+    #interest-area .section-title h2 {
+        font-size: 35px;
+    }
+    .interest-item {
+        margin-bottom: 60px;
+    }
+    .interest-item-content {
+        margin: auto;
+    }
+    .cd-timeline-img {
+        left: 19px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .skills-content .col-md-6.col-sm-6.col-xs-12:nth-child(2) .skillst5.float-right {
+        float: left;
+        margin-top: 75px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .footer-icons li a i {
+        font-size: 22px;
+        height: 50px;
+        width: 50px;
+    }
+    .footer-icons a {
+        margin: 0 15px !important;
+    }
+    .message-content {
+        width: 100%;
+    }
+    .single-blog {
+        margin-bottom: 50px;
+    }
+    .educaton-content::before,
+    .experience-content::before,
+    .educaton-content .cd-timeline::after,
+    .experience-content .cd-timeline::after {
+        left: 20px;
+    }
+    .experience-content .cd-timeline-content,
+    .educaton-content .cd-timeline-content {
+        text-align: left;
+    }
+    .experience-content .cd-timeline-content p,
+    .educaton-content .cd-timeline-content p {
+        margin: 15px 0 10px;
+    }
+    .skill-bottom-content {
+        width: 100%;
+        margin: inherit;
+    }
+    .single-skill-bottom {
+        float: none;
+        width: 100% !important;
+        margin: auto;
+    }
+    .sin-skill-middle {
+        width: 100% !important;
+    }
+    .blog-content-wrap {
+        height: auto;
+        padding: 15px;
+    }
+    .sidebar-wrap {
+        margin-top: 60px;
+    }
+    .single-related-post {
+        margin-bottom: 30px;
+    }
+    .portfolio-open-content {
+        margin-top: 50px;
+    }
+    .hire-content>h2::before {
+        font-size: 45px;
+        left: -25px;
+        top: 5px;
+    }
+    .educaton-content,
+    .experience-content {
+        margin-left: 10px;
+    }
+    .educaton-content .cd-timeline-content h2,
+    .experience-content .cd-timeline-content h2 {
+        font-size: 24px;
+    }
+}
+
+
+/* ==== Small Device, Tablet ==== */
+
+@media only screen and (min-width:768px) {
+    .header-bottom h1 {
+        font-size: 100px;
+    }
+    .header-bottom>h3 {
+        font-size: 50px;
+    }
+    .header-bottom p {
+        font-size: 28px;
+    }
+    .resume-btn a {
+        margin-left: 90px;
+    }
+    .about-content-area {
+        margin-top: 85px;
+    }
+    .interest-item {
+        margin-bottom: 60px;
+    }
+    .interest-item-content {
+        margin: auto;
+    }
+    .interests-content .col-md-2.col-sm-4.col-xs-6:nth-child(4) .interest-item {
+        margin-bottom: 0;
+    }
+    .cd-timeline-img {
+        left: 19px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .skills-content .col-md-6.col-sm-6.col-xs-12:nth-child(2) .skillst5.float-right {
+        float: right;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 45px;
+    }
+    .footer-icons li a i {
+        font-size: 22px;
+        height: 50px;
+        width: 50px;
+    }
+    .footer-icons a {
+        margin: 0 15px !important;
+    }
+    .message-content {
+        width: 100%;
+    }
+    .hire-content>p {
+        margin: 8px auto 15px;
+        padding-left: 30px;
+        width: 80%;
+    }
+    .hire-content>h2::before {
+        left: -40px;
+        top: -5px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .educaton-content::before,
+    .experience-content::before,
+    .educaton-content .cd-timeline::after,
+    .experience-content .cd-timeline::after {
+        left: 20px;
+    }
+    .experience-content .cd-timeline-content,
+    .educaton-content .cd-timeline-content {
+        text-align: left;
+    }
+    .experience-content .cd-timeline-content p,
+    .educaton-content .cd-timeline-content p {
+        margin: 15px 0 10px;
+    }
+    .skill-bottom-content {
+        width: 100%;
+        margin: inherit;
+    }
+    .single-skill-bottom {
+        float: none;
+        width: 100% !important;
+        margin: inherit;
+        height: 235px;
+    }
+    .sin-skill-middle {
+        width: 100% !important;
+        height: 235px !important;
+    }
+    .blog-content-wrap {
+        height: 275px;
+        padding: 0 15px 0 0;
+    }
+    .sidebar-wrap {
+        margin-top: 60px;
+    }
+    .single-related-post {
+        margin-bottom: 30px;
+    }
+    .portfolio-open-content {
+        margin-top: 50px;
+    }
+    .single-testimonial p::before,
+    .single-testimonial p::after {
+        display: block;
+        left: -30px;
+    }
+    .single-testimonial p::after {
+        right: -30px;
+        left: auto;
+    }
+    .educaton-content,
+    .experience-content {
+        margin-left: 0;
+    }
+    .educaton-content .cd-timeline-content h2,
+    .experience-content .cd-timeline-content h2 {
+        font-size: 27px;
+    }
+}
+
+
+/* ==== Medium Device, Desktop ==== */
+
+@media only screen and (min-width:992px) {
+    .header-bottom h1 {
+        font-size: 120px;
+    }
+    .header-bottom>h3 {
+        font-size: 84px;
+    }
+    .header-bottom p {
+        font-size: 25px;
+    }
+    .resume-btn a {
+        margin-left: 90px;
+    }
+    .about-content-area {
+        margin-top: 0;
+    }
+    .interest-item {
+        margin-bottom: 0;
+    }
+    .interest-item-content {
+        margin: inherit;
+    }
+    .cd-timeline-img {
+        left: 50%;
+        top: 20px;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    .skills-content .col-md-6.col-sm-6.col-xs-12:nth-child(2) .skillst5.float-right {
+        float: right;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 45px;
+    }
+    .footer-icons li a i {
+        font-size: 22px;
+        height: 50px;
+        width: 50px;
+    }
+    .footer-icons a {
+        margin: 0 15px !important;
+    }
+    .message-content {
+        width: 90%;
+    }
+    .hire-content {
+        width: 80%;
+        float: left;
+    }
+    .hire-content>p {
+        padding-left: 90px;
+        width: 80%;
+        margin: 5px auto 0;
+    }
+    .hire-content>h2 {
+        font-size: 37px;
+        padding-left: 90px;
+    }
+    .hire-content>h2::before {
+        font-size: 60px;
+    }
+    .hire-btn a {
+        float: right;
+    }
+    .hire-btn {
+        margin-top: 0;
+        text-align: center;
+        width: 20%;
+        float: right;
+    }
+    .single-blog {
+        margin-bottom: 0;
+    }
+    .educaton-content::before,
+    .experience-content::before,
+    .educaton-content .cd-timeline::after,
+    .experience-content .cd-timeline::after {
+        left: 50%;
+    }
+    .experience-content .cd-timeline-content,
+    .educaton-content .cd-timeline-content {
+        text-align: right;
+    }
+    .experience-content .cd-timeline-content p,
+    .educaton-content .cd-timeline-content p {
+        margin: 0;
+    }
+    .skill-bottom-content {
+        width: 1070px;
+        margin: auto;
+    }
+    .single-skill-bottom {
+        float: left!important;
+        width: 33.333%!important;
+        margin: inherit;
+        height: 350px;
+    }
+    .sin-skill-middle {
+        width: 370px;
+        height: 370px!important;
+    }
+    .blog-content-wrap {
+        height: 275px;
+        padding: 0 15px 0 0;
+    }
+    .sidebar-wrap {
+        margin-top: 0;
+    }
+    .single-related-post {
+        margin-bottom: 0;
+    }
+    .portfolio-open-content {
+        margin-top: 0;
+    }
+    .single-testimonial p::before,
+    .single-testimonial p::after {
+        display: block;
+        left: -20px;
+    }
+    .single-testimonial p::after {
+        right: -20px;
+        left: auto;
+    }
+    .hire-content>h2::before {
+        left: 0;
+        top: 0;
+    }
+    .educaton-content,
+    .experience-content {
+        margin-left: 0;
+    }
+}
